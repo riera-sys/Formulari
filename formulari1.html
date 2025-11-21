@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estils.css">
+    <link rel="shortcut icon" href="img/form-18.png" type="image/x-icon">
+    <title>Formularis chulus</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulari guai</h1>
+    </header>
+    <form action="" method="">
+        <!-- aqui iran todos los campos del formulari -->
+        <fieldset>
+            <legend>Dades personals:</legend>
+            <label for="Nombre">Nombre</label>
+            <input id="Nombre" type="text" placeholder="Tu nombre aqui">
+
+            <label for="email">Email</label>
+            <input type="email" name="" id="email" placeholder="Tu email aqui">
+
+            <label for="telefono">Telefono</label>
+            <input type="tel" name="" id="telefono" placeholder="+34 906 874 432">
+
+            <label for="pass">Contrasenya</label>
+            <input type="password" name="" id="pass">
+        </fieldset>
+        <fieldset>
+            <legend>Dades del curs:</legend>
+            <label for="modalitat">Modalitat:</label>
+            <select name="" id="modalitat">
+                <option value="">Selecciona una opció</option>
+                <option value="presencial">Presencial</option>
+                <option value="online">online</option>
+                <option value="mixt">mixt</option>
+            </select>
+            <fieldset>
+                <label for="inici">
+                    <input type="date" name="" id="inici"> Data de començament
+                </label> <br>
+                <label for="final">
+                    <input type="date" name="" id="final"> Data de finalització
+                </label>
+            </fieldset>
+            <label for="comentarios">Els teus comentaris:</label>
+            <textarea name="" id="comentarios" rows="18" cols="40" placeholder="Cuentame tus necesidades"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Horror:</legend>
+            <span>Preferencia de torn:</span>
+            <label for="torn">
+                <input type="radio" name="" id="torn" value="mati">Mati
+            </label>
+            <label for="torn">
+                <input type="radio" name="" id="torn" value="migdia">Migdia
+            </label>
+            <label for="torn">
+                <input type="radio" name="" id="torn" value="Tarda">Tarda
+            </label>
+
+            <p>Els teus interesos: </p>
+            <label for="interesos">
+                <input type="checkbox" name="" id="interesos" value="HTML">HTML
+            </label>
+            <label for="interesos">
+                <input type="checkbox" name="" id="interesos" value="CSS">CSS
+            </label>
+            <label for="interesos">
+                <input type="checkbox" name="" id="interesos" value="js">jss
+            </label>
+
+        </fieldset>
+
+        <fieldset>
+            <label for="arxiu">
+                <input type="file" name="" id="arxiu">Penjeu algun arxiu que creieu necessari
+            </label>
+        </fieldset>
+
+        <button><img src="img/boton.jpg" alt=""></button>
+        <input type="submit" value="Enviar">
+
+    </form>
+
+</body>
+
+</html>

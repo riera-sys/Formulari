@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+DE+SAS:wght@100..400&display=swap');
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    color: green;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+button {
+    padding: 0.5em;
+    font-size: 1.3em;
+    margin: 1em;
+    width: 20%;
+    border-radius: .5em;
+    border: none;
+    color: ghostwhite;
+    background: crimson;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+}
+
+button:hover {
+    background: aqua;
+    color: rgb(34, 33, 33);
+}
