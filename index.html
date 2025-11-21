@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ca">
 
 <head>
     <meta charset="UTF-8">
@@ -13,7 +13,7 @@
     <header>
         <h1>Formulari guai</h1>
     </header>
-    <form action="" method="">
+    <form>
         <!-- aqui iran todos los campos del formulari -->
         <fieldset>
             <legend>Dades personals:</legend>
@@ -21,18 +21,18 @@
             <input id="Nombre" type="text" placeholder="Tu nombre aqui">
 
             <label for="email">Email</label>
-            <input type="email" name="" id="email" placeholder="Tu email aqui">
+            <input type="email" id="email" placeholder="Tu email aqui">
 
             <label for="telefono">Telefono</label>
-            <input type="tel" name="" id="telefono" placeholder="+34 906 874 432">
+            <input type="tel" id="telefono" placeholder="+34 906 874 432">
 
             <label for="pass">Contrasenya</label>
-            <input type="password" name="" id="pass">
+            <input type="password" id="pass">
         </fieldset>
         <fieldset>
             <legend>Dades del curs:</legend>
             <label for="modalitat">Modalitat:</label>
-            <select name="" id="modalitat">
+            <select id="modalitat">
                 <option value="">Selecciona una opció</option>
                 <option value="presencial">Presencial</option>
                 <option value="online">online</option>
@@ -40,44 +40,44 @@
             </select>
             <fieldset>
                 <label for="inici">
-                    <input type="date" name="" id="inici"> Data de començament
+                    <input type="date" id="inici"> Data de començament
                 </label> <br>
                 <label for="final">
-                    <input type="date" name="" id="final"> Data de finalització
+                    <input type="date" id="final"> Data de finalització
                 </label>
             </fieldset>
             <label for="comentarios">Els teus comentaris:</label>
-            <textarea name="" id="comentarios" rows="18" cols="40" placeholder="Cuentame tus necesidades"></textarea>
+            <textarea id="comentarios" rows="18" cols="40" placeholder="Cuentame tus necesidades"></textarea>
         </fieldset>
         <fieldset>
             <legend>Horror:</legend>
             <span>Preferencia de torn:</span>
             <label for="torn">
-                <input type="radio" name="" id="torn" value="mati">Mati
+                <input type="radio" id="torn" value="mati">Mati
             </label>
             <label for="torn">
-                <input type="radio" name="" id="torn" value="migdia">Migdia
+                <input type="radio" id="torn_migdia" value="migdia">Migdia
             </label>
             <label for="torn">
-                <input type="radio" name="" id="torn" value="Tarda">Tarda
+                <input type="radio" id="torn_tarda" value="Tarda">Tarda
             </label>
 
             <p>Els teus interesos: </p>
             <label for="interesos">
-                <input type="checkbox" name="" id="interesos" value="HTML">HTML
+                <input type="checkbox" id="interesos" value="HTML">HTML
             </label>
             <label for="interesos">
-                <input type="checkbox" name="" id="interesos" value="CSS">CSS
+                <input type="checkbox" id="interesos_css" value="CSS">CSS
             </label>
             <label for="interesos">
-                <input type="checkbox" name="" id="interesos" value="js">jss
+                <input type="checkbox" id="interesos_jss" value="js">jss
             </label>
 
         </fieldset>
 
         <fieldset>
             <label for="arxiu">
-                <input type="file" name="" id="arxiu">Penjeu algun arxiu que creieu necessari
+                <input type="file" id="arxiu">Penjeu algun arxiu que creieu necessari
             </label>
         </fieldset>
 
@@ -89,3 +89,4 @@
 </body>
 
 </html>
+
