@@ -11,6 +11,8 @@ header {
 
 dates{
     border: 1px solid;
+     border-radius: 1em;
+    padding: 1em;
 }
 
 form {
@@ -42,3 +44,4 @@ button:hover {
     color: rgb(34, 33, 33);
 
 }
+
