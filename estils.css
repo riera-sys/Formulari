@@ -9,6 +9,10 @@ header {
 
 }
 
+dates{
+    border: 1px solid;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -36,4 +40,5 @@ img {
 button:hover {
     background: aqua;
     color: rgb(34, 33, 33);
+
 }
